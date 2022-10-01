@@ -1,13 +1,10 @@
 
        /* Universal Css - To be embeded in every stylsheet */
-     
-
 html {
     scroll-behavior: smooth;
   }
 
      /* CSS Reset */
-  
 *{
     padding: 0%;
     margin: 0%;
@@ -19,7 +16,6 @@ ul{
 }
 
    /* Remove Underline From Anchor Tag */
-
 a{
     text-decoration: none;
 }
@@ -30,29 +26,25 @@ input{
 }
 
    /* Average Margin Padding  */
-
    .mar-pad{
-    padding: 4% 3%;
-    margin: 4% 5%;
+    padding: 10px 15px;
+    margin: 20px 25px;
    }
 
    /* Center Any Element  */
-   
-   .cen-ele{
+   .center-element{
        display: flex;
        justify-content: center;
        align-items: center;
     }
     
     /* Center Any Element - Horizontly */
-
     .cen-ele-hor{
         display: flex;
         align-items: center;
     }
     
     /* Center Any Element - Vertically */
-
    .cen-ele-ver{
        display: flex;
        justify-content: center;
